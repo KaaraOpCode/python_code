@@ -1,0 +1,10 @@
+.transactionMenu {
+    background: none;
+    border: none;
+}
+
+.withdrawNav,
+.depositNav {
+    color: white;
+    cursor: pointer;
+}
