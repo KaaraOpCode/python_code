@@ -32,7 +32,7 @@ import pandas as pd
 from pandas_datareader import wb
 
 # Download the data
-result_data = wb.download(indicator="SP.DYN.LE00.IN", start='1975', end='1999', country='all')
+result_data = wb.download(indicator="SP.DYN.LE00.IN", start='1975', end='2024', country='all')
 
 # Optionally, convert specific columns to numeric
 result_data['SP.DYN.LE00.IN'] = pd.to_numeric(result_data['SP.DYN.LE00.IN'], errors='coerce')
